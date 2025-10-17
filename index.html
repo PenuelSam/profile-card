@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penuel's Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <article data-testid="test-profile-card" class="profile-card">
+
+    <figure class="profile-avatar">
+      <img 
+        src="./asset/avatar.webp" 
+        alt="Portrait of Penuel — web developer and strategist" 
+        data-testid="test-user-avatar">
+    </figure>
+
+    <section class="profile-info">
+      <header class="profile-header">
+        <h2 data-testid="test-user-name">Penuel A.</h2>
+      </header>
+
+      <p data-testid="test-user-bio">
+        Web developer and aspiring strategist focused on blending technology, marketing, and design to build purposeful digital brands.
+      </p>
+
+      <p class="profile-time">
+        <strong>Current Time (ms): </strong>
+        <span data-testid="test-user-time" id="time"></span>
+      </p>
+
+      <nav aria-label="Social links">
+        <ul data-testid="test-user-social-links" class="social-links">
+          <li><a data-testid="test-user-social-twitter" href="https://x.com/penuelDev" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+          <li><a data-testid="test-user-social-github" href="https://github.com/PenuelSam" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a data-testid="test-user-social-linkedin" href="https://www.linkedin.com/in/penuel/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </nav>
+
+      <section class="profile-hobbies">
+        <h3>Hobbies</h3>
+        <ul data-testid="test-user-hobbies">
+          <li>Building digital products</li>
+          <li>Exploring business strategy</li>
+          <li>Designing clean interfaces</li>
+        </ul>
+      </section>
+
+      <section class="profile-dislikes">
+        <h3>Dislikes</h3>
+        <ul data-testid="test-user-dislikes">
+          <li>Overcomplicated user flows</li>
+          <li>Cluttered interfaces</li>
+          <li>Short-term thinking</li>
+        </ul>
+      </section>
+    </section>
+  </article>
+</body>
+  <script defer src="app.js"></script>
+</html>
