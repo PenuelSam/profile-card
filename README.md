@@ -4,6 +4,11 @@ A simple, accessible, and responsive **Profile Card** built using semantic HTML,
 
 ---
 
+##  Live Demo
+ **[View the Live Site](https://task0-profilecard.netlify.app/)**
+
+---
+
 ##  Features
 - Semantic and accessible HTML structure
 - Responsive design (mobile → desktop)
